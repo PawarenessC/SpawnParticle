@@ -1,0 +1,6 @@
+name: SpawnParticle
+version: 0.1
+api: [3.0.0,3.8.0,4.0.0]
+main: pawarenessc\spawnparticle\Main
+author: PawarenessC
+description: スポーン地点にパーティクル
