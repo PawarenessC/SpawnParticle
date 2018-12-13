@@ -31,7 +31,7 @@ public function onEnable() {
 
  $this->getLogger()->info("=========================");
 
- $this->getScheduler()->scheduleRepeatingTask(new CallbackTask([$this, "particle"]), 20);
+ $this->getScheduler()->scheduleRepeatingTask(new CallbackTask([$this, "particle"]), 10);
  
  }
  
